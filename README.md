@@ -1,1 +1,2 @@
-# sesac-module-project2-react
+# 멀티클러스터 환경에서 컨테이너 배포 미니 프로젝트를 위한 프론트 서버
+
