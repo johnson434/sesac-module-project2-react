@@ -38,8 +38,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-
         <div style={{ marginTop: "20px" }}>
+          <h1>황인규</h1>
           <h3>구구단 계산기</h3>
           <input
             type="number"
