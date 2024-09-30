@@ -3,9 +3,6 @@ import './App.css';
 import axios from "axios";
 import React, { useState } from 'react';
 
-const URL = "http://www.test.com/api";
-// const URL = "http://0.0.0.0:9000";
-
 function App() {
   const [apiStatusCode, setApiStatusCode] = useState();
   const [inputValue, setInputValue] = useState('');  // 구구단 입력 값을 관리할 상태
@@ -19,7 +16,7 @@ function App() {
     }
 
     try {
-      const response = await axios.get(`${URL}/calculator`, {
+      const response = await axios.get("/api/calculator", {
         params: { number: inputValue }  // 숫자를 입력으로 서버에 전달
       });
 
